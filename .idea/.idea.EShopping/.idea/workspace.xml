@@ -8,69 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83a8f0e0-c9d2-4078-a064-96561dfdb723" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Catalog.API.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Catalog.API.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Catalog.Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Commands/CreateProductCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Commands/DeleteProductByIdQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Commands/UpdateProductCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/CreateProductHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/DeleteProductByIdHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/GetAllBrandsHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/GetAllProductsHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/GetAllTypesHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/GetProductByBrandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/GetProductByIdQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/GetProductByNameQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Handlers/UpdateProductHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Mappers/ProductMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Mappers/ProductMappingProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Queries/GetAllBrandsQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Queries/GetAllProductsQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Queries/GetAllTypesQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Queries/GetProductByBrandQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Queries/GetProductByIdQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Queries/GetProductByNameQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Responses/BrandResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Responses/ProductResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Application/Responses/TypesResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Catalog.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Entities/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Entities/ProductBrand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Entities/ProductType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Repositories/IBrandRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Repositories/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Core/Repositories/ITypesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/BrandContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/CatalogContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/CatalogContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/ICatalogContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/SeedData/brands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/SeedData/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/SeedData/types.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Data/TypeContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.Infrastructure/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EShopping.sln" afterDir="false" />
-    </list>
+    <list default="true" id="83a8f0e0-c9d2-4078-a064-96561dfdb723" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719339345313</updated>
-      <workItem from="1719339346572" duration="19549000" />
+      <workItem from="1719339346572" duration="19881000" />
     </task>
     <servers />
   </component>
