@@ -8,14 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83a8f0e0-c9d2-4078-a064-96561dfdb723" name="Changes" comment="Added workshop.">
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Controllers/BaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Controllers/CatalogController.cs" afterDir="false" />
+    <list default="true" id="83a8f0e0-c9d2-4078-a064-96561dfdb723" name="Changes" comment="Controller added and action added in Catalog controller.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.API/Catalog.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Catalog.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.API/Controllers/CatalogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Controllers/CatalogController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.API/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.API/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/017ef42f9d484077a1427878ff91a9e672c00/cd/a0d6c942/DeveloperExceptionPageExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/286db7d20fb24fb29e42b60606604f6f90c00/f1/4d92ef8b/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fb07e288afa4fb5b6e5c73ac90727b2219600/54/b83ff570/ActionResult`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fb07e288afa4fb5b6e5c73ac90727b2219600/df/f50ed5e9/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5993aad3067e1db3c391a27791b45cd4fd17aebb23edf7a99c523af5a19b9/ApiVersionAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/73e11ef76812365d15214c653c10654b13e5da0cccfb58d12e5ebf22330a599/ApiVersionRouteConstraint.cs" root0="SKIP_HIGHLIGHTING" />
@@ -146,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719339345313</updated>
-      <workItem from="1719339346572" duration="25141000" />
+      <workItem from="1719339346572" duration="27955000" />
     </task>
     <task id="LOCAL-00001" summary="Added workshop.">
       <option name="closed" value="true" />
@@ -156,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720032299418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Controller added and action added in Catalog controller.">
+      <option name="closed" value="true" />
+      <created>1720038279615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720038279615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added workshop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added workshop." />
+    <MESSAGE value="Controller added and action added in Catalog controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller added and action added in Catalog controller." />
   </component>
 </project>

@@ -130,7 +130,7 @@ public class CatalogController: BaseController
     /// </summary>
     /// <param name="id"></param>
     /// <returns>ProductResponse</returns>
-    [HttpPut, Route("{id}",Name = "DeleteProduct")]
+    [HttpDelete, Route("{id}",Name = "DeleteProduct")]
     [ProducesResponseType(typeof(ProductResponse), (int)HttpStatusCode.OK)]
     public async Task<IActionResult> DeleteProduct(string id)
     {
